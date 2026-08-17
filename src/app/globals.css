@@ -1,0 +1,43 @@
+:root {
+  --color-primary: #ff6600;
+  --color-primary-hover: #e55c00;
+  --color-primary-glow: rgba(255, 102, 0, 0.35);
+  
+  --color-bg-main: #080c14;
+  --color-bg-surface: #0f1624;
+  --color-bg-card: #151d2e;
+  --color-bg-card-hover: #1c273d;
+  
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-border-hover: rgba(255, 102, 0, 0.3);
+  
+  --color-text-main: #f8fafc;
+  --color-text-muted: #94a3b8;
+  --color-text-dim: #64748b;
+  
+  --color-whatsapp: #25d366;
+  --color-whatsapp-hover: #20ba59;
+  
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--color-bg-main);
+  color: var(--color-text-main);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
