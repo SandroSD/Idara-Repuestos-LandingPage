@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" fill="none" width="100%" height="100%">
+  <defs>
+    <!-- Orange Gradient -->
+    <linearGradient id="idaraOrangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A00" />
+      <stop offset="100%" stop-color="#FF5500" />
+    </linearGradient>
+
+    <!-- Chrome / Xenon White Gradient -->
+    <linearGradient id="idaraWhiteGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+
+    <!-- Subtle Glow Filter -->
+    <filter id="orangeGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Circular Speed Emblem (Left Icon) -->
+  <g transform="translate(10, 10)">
+    <!-- Outer Arc White -->
+    <path d="M 50 8 A 42 42 0 0 0 10 50 A 42 42 0 0 0 25 80" 
+          stroke="url(#idaraWhiteGrad)" 
+          stroke-width="5" 
+          stroke-linecap="round" 
+          fill="none" />
+    
+    <!-- Outer Arc Orange -->
+    <path d="M 50 92 A 42 42 0 0 0 90 50 A 42 42 0 0 0 75 20" 
+          stroke="url(#idaraOrangeGrad)" 
+          stroke-width="5" 
+          stroke-linecap="round" 
+          fill="none" 
+          filter="url(#orangeGlow)" />
+    
+    <!-- Internal Fast Accents -->
+    <path d="M 72 15 L 82 8" stroke="#FF7A00" stroke-width="3.5" stroke-linecap="round" />
+    <path d="M 28 85 L 18 92" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" opacity="0.8" />
+
+    <!-- Stylized Central Monogram 'I' with automotive headlight beam cuts -->
+    <path d="M 38 32 L 62 32 L 58 40 L 44 40 L 40 60 L 54 60 L 50 68 L 36 68 L 32 88 L 22 88 L 34 32 Z" 
+          fill="url(#idaraWhiteGrad)" />
+    
+    <path d="M 56 46 L 70 46 L 66 54 L 52 54 Z" 
+          fill="url(#idaraOrangeGrad)" />
+    <path d="M 48 74 L 62 74 L 58 82 L 44 82 Z" 
+          fill="url(#idaraOrangeGrad)" />
+  </g>
+
+  <!-- Wordmark 'IDARA' -->
+  <g transform="translate(125, 20)">
+    <!-- IDARA Text in stylized italic geometry -->
+    <text x="0" y="42" 
+          font-family="system-ui, -apple-system, sans-serif" 
+          font-weight="900" 
+          font-style="italic" 
+          font-size="44" 
+          letter-spacing="2" 
+          fill="url(#idaraWhiteGrad)">
+      IDARA
+    </text>
+
+    <!-- OSRAM Brand Badge / Text -->
+    <text x="0" y="78" 
+          font-family="system-ui, -apple-system, sans-serif" 
+          font-weight="900" 
+          font-size="28" 
+          letter-spacing="3" 
+          fill="url(#idaraOrangeGrad)" 
+          filter="url(#orangeGlow)">
+      OSRAM
+    </text>
+
+    <!-- Subtitle 'DISTRIBUIDORA · WARNES' -->
+    <text x="145" y="76" 
+          font-family="system-ui, -apple-system, sans-serif" 
+          font-weight="700" 
+          font-size="11" 
+          letter-spacing="2.5" 
+          fill="#94A3B8">
+      DISTRIBUIDORA
+    </text>
+  </g>
+</svg>

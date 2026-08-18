@@ -1,15 +1,31 @@
+import Header from '@/components/common/Header';
+import Hero from '@/components/sections/Hero';
+import StatsBar from '@/components/sections/StatsBar';
+import BulbFinder from '@/components/sections/BulbFinder';
+import ProductShowcase from '@/components/sections/ProductShowcase';
+import BeamComparison from '@/components/sections/BeamComparison';
+import WholesaleB2B from '@/components/sections/WholesaleB2B';
+import ReviewsSection from '@/components/sections/ReviewsSection';
+import LocationWarnes from '@/components/sections/LocationWarnes';
+import FaqSection from '@/components/sections/FaqSection';
+import Footer from '@/components/common/Footer';
+import WhatsAppWidget from '@/components/common/WhatsAppWidget';
+
 export default function Home() {
   return (
-    <main style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '2rem', textAlign: 'center' }}>
-      <h1 style={{ fontSize: '2.5rem', marginBottom: '1rem', color: 'var(--color-primary)' }}>
-        Distribuidora Idara
-      </h1>
-      <p style={{ fontSize: '1.25rem', color: 'var(--color-text-muted)', maxWidth: '600px', marginBottom: '2rem' }}>
-        Distribuidor Oficial OSRAM & NEOLUX en Warnes 729, CABA.
-      </p>
-      <div style={{ padding: '0.75rem 1.5rem', borderRadius: '8px', background: 'var(--color-bg-card)', border: '1px solid var(--color-border)', color: 'var(--color-text-dim)' }}>
-        Estructura base inicializada y lista para iterar.
-      </div>
+    <main className="min-h-screen bg-white text-slate-900 overflow-x-hidden">
+      <Header />
+      <Hero />
+      <StatsBar />
+      <BulbFinder />
+      <ProductShowcase />
+      <BeamComparison />
+      <WholesaleB2B />
+      <ReviewsSection />
+      <LocationWarnes />
+      <FaqSection />
+      <Footer />
+      <WhatsAppWidget />
     </main>
   );
 }

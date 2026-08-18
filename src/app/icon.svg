@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" width="100%" height="100%">
+  <defs>
+    <!-- Orange Gradient -->
+    <linearGradient id="iconOrangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A00" />
+      <stop offset="100%" stop-color="#FF4500" />
+    </linearGradient>
+
+    <!-- Jet Black Fill -->
+    <linearGradient id="iconBlackGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0B0F19" />
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Background Badge -->
+  <circle cx="32" cy="32" r="30" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" />
+
+  <!-- Speed Ring: Black Top/Left Arc -->
+  <path d="M 32 8 A 24 24 0 0 0 8 32 A 24 24 0 0 0 17 49" 
+        stroke="url(#iconBlackGrad)" 
+        stroke-width="4.5" 
+        stroke-linecap="round" 
+        fill="none" />
+
+  <!-- Speed Ring: Orange Bottom/Right Arc -->
+  <path d="M 32 56 A 24 24 0 0 0 56 32 A 24 24 0 0 0 47 15" 
+        stroke="url(#iconOrangeGrad)" 
+        stroke-width="4.5" 
+        stroke-linecap="round" 
+        fill="none" />
+
+  <!-- Dynamic Speed Flare Accents -->
+  <path d="M 45 11 L 52 6" stroke="#FF7A00" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 19 53 L 12 58" stroke="#0B0F19" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Stylized Italic 'I' Monogram in Black -->
+  <path d="M 24 21 L 40 21 L 37 27 L 32 27 L 28 37 L 37 37 L 34 43 L 25 43 L 23 49 L 17 49 L 24 21 Z" 
+        fill="url(#iconBlackGrad)" />
+  
+  <!-- Orange Headlight Beam Center Accent -->
+  <path d="M 35 29 L 45 29 L 42 35 L 32 35 Z" fill="url(#iconOrangeGrad)" />
+</svg>
