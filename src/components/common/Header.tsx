@@ -11,9 +11,7 @@ export default function Header() {
   const [activeSection, setActiveSection] = useState<string>('');
 
   const navLinks = [
-    { name: 'Buscador', id: 'buscador', href: '#buscador' },
-    { name: 'Productos OSRAM', id: 'productos', href: '#productos' },
-    { name: 'Comparador LED', id: 'comparador', href: '#comparador' },
+    { name: 'Catálogo & Buscador', id: 'productos', href: '#productos' },
     { name: 'Venta Mayorista', id: 'mayorista', href: '#mayorista' },
     { name: 'Local Warnes', id: 'local', href: '#local' },
     { name: 'Preguntas', id: 'faq', href: '#faq' },

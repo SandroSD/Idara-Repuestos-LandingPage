@@ -1,9 +1,7 @@
 import Header from '@/components/common/Header';
 import Hero from '@/components/sections/Hero';
 import StatsBar from '@/components/sections/StatsBar';
-import BulbFinder from '@/components/sections/BulbFinder';
 import ProductShowcase from '@/components/sections/ProductShowcase';
-import BeamComparison from '@/components/sections/BeamComparison';
 import WholesaleB2B from '@/components/sections/WholesaleB2B';
 import ReviewsSection from '@/components/sections/ReviewsSection';
 import LocationWarnes from '@/components/sections/LocationWarnes';
@@ -17,9 +15,7 @@ export default function Home() {
       <Header />
       <Hero />
       <StatsBar />
-      <BulbFinder />
       <ProductShowcase />
-      <BeamComparison />
       <WholesaleB2B />
       <ReviewsSection />
       <LocationWarnes />

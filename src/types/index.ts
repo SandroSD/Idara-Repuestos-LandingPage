@@ -2,6 +2,21 @@ export type VehicleType = 'auto' | 'moto' | 'camion';
 
 export type BulbSocket = 'H1' | 'H3' | 'H4' | 'H7' | 'H8' | 'H11' | 'H15' | 'H16' | 'HB3' | 'HB4' | 'HIR2' | 'D1S' | 'D2S' | 'D3S' | 'W5W' | 'T10' | 'P21W' | 'PY21W' | 'R5W' | 'T4W' | string;
 
+export interface CatalogoProducto {
+  id: string;
+  archivoOrigen: string;
+  marca: 'OSRAM' | 'NEOLUX';
+  segmento: 'Auto' | 'Camión' | 'Moto' | 'Neolux';
+  seccion: string;
+  codigo: string;
+  tipo?: string;
+  volts?: string;
+  watts?: string;
+  descripcion: string;
+  precio: number;
+  codigoEquivalenteOsram?: string;
+}
+
 export interface Product {
   id: string;
   name: string;

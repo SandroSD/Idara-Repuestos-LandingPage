@@ -38,7 +38,7 @@ export default function WhatsAppWidget() {
   };
 
   return (
-    <div className="fixed bottom-6 right-6 z-50">
+    <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end pointer-events-none">
       {/* Pop-up Card */}
       <AnimatePresence>
         {isOpen && (
@@ -47,7 +47,7 @@ export default function WhatsAppWidget() {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.9, y: 20 }}
             transition={{ duration: 0.2 }}
-            className="mb-4 w-[340px] sm:w-[380px] rounded-3xl bg-white border border-slate-200 p-5 shadow-2xl backdrop-blur-xl text-slate-900"
+            className="mb-4 w-[340px] sm:w-[380px] rounded-3xl bg-white border border-slate-200 p-5 shadow-2xl backdrop-blur-xl text-slate-900 pointer-events-auto"
           >
             {/* Header */}
             <div className="flex items-center justify-between border-b border-slate-100 pb-3 mb-3">
@@ -112,7 +112,7 @@ export default function WhatsAppWidget() {
         whileHover={{ scale: 1.08 }}
         whileTap={{ scale: 0.95 }}
         onClick={() => setIsOpen(!isOpen)}
-        className="relative flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-tr from-emerald-600 via-emerald-500 to-green-500 text-white shadow-2xl shadow-emerald-600/40 hover:shadow-emerald-600/60 transition-all"
+        className="relative flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-tr from-emerald-600 via-emerald-500 to-green-500 text-white shadow-2xl shadow-emerald-600/40 hover:shadow-emerald-600/60 transition-all pointer-events-auto"
         aria-label="Abrir chat de WhatsApp"
       >
         <span className="absolute -top-1 -right-1 flex h-4 w-4">

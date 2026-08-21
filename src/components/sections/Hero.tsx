@@ -57,11 +57,11 @@ export default function Hero() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-14"
         >
           <a
-            href="#buscador"
+            href="#productos"
             className="w-full sm:w-auto flex items-center justify-center gap-2.5 px-8 py-4 rounded-xl bg-gradient-to-r from-orange-500 via-orange-600 to-orange-500 hover:from-orange-600 hover:to-orange-700 text-white font-extrabold text-base shadow-xl shadow-orange-500/25 hover:shadow-orange-500/35 hover:scale-[1.02] active:scale-[0.98] transition-all"
           >
             <Search className="w-5 h-5" />
-            Buscar Lámparas para mi Vehículo
+            Buscar en el Catálogo Oficial
           </a>
           <a
             href="#mayorista"
