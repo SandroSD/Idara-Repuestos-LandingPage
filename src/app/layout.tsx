@@ -46,9 +46,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Distribuidora Idara | Distribuidor Oficial OSRAM Warnes',
+    title: 'Distribuidora Idara | Distribuidor Oficial OSRAM & NEOLUX Warnes',
     description:
-      'Iluminación automotriz de precisión alemana. Venta mayorista a repuesteras y talleres con envíos a todo el país.',
+      'Distribuidora mayorista de iluminación automotor OSRAM & NEOLUX. Venta a casas de repuestos, talleres y comercios con envíos a todo el país.',
   },
 };
 

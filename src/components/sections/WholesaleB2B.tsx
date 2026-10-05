@@ -9,7 +9,7 @@ export default function WholesaleB2B() {
     businessName: '',
     city: '',
     phone: '',
-    businessType: 'Repuestera / Casa de Autopartes',
+    businessType: 'Casa de Repuestos / Autopartes',
   });
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -67,7 +67,7 @@ Muchas gracias!`;
             Canal Mayorista B2B
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight">
-            ¿Tenés Repuestera, Taller o Flota de Transporte?
+            ¿Tenés Casa de Repuestos, Taller o Flota de Transporte?
           </h2>
           <p className="text-sm sm:text-base text-slate-600 mt-3">
             Abastecé tu negocio con el distribuidor oficial de OSRAM y NEOLUX en Warnes. Solicitá la lista de precios mayorista actualizada y condiciones de cuenta comercial.
@@ -164,7 +164,7 @@ Muchas gracias!`;
                   onChange={(e) => setFormData({ ...formData, businessType: e.target.value })}
                   className="w-full px-3.5 py-2.5 rounded-xl bg-white border border-slate-200 text-slate-900 text-sm focus:outline-none focus:border-orange-500 transition-colors shadow-sm"
                 >
-                  <option value="Repuestera / Casa de Autopartes">Repuestera / Casa de Autopartes</option>
+                  <option value="Casa de Repuestos / Autopartes">Casa de Repuestos / Autopartes</option>
                   <option value="Taller Mecánico / Electricidad">Taller Mecánico / Electricidad</option>
                   <option value="Empresa de Transporte / Flotas">Empresa de Transporte / Flotas (24V)</option>
                   <option value="Distribuidor Regional">Distribuidor Regional</option>

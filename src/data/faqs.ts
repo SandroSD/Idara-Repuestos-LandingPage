@@ -17,7 +17,7 @@ export const faqsData: FaqItem[] = [
     id: 'faq-3',
     category: 'mayorista',
     question: '¿Cómo solicito la Lista de Precios Mayorista y cuáles son los requisitos?',
-    answer: 'Podés solicitar la lista mayorista directamente a través de nuestro formulario en la web o por WhatsApp comercial (+54 9 11 6197-7748). Atendemos a repuesteras, casas de electricidad, talleres y flotas con precios escalonados por volumen y Factura A o B.',
+    answer: 'Podés solicitar la lista mayorista directamente a través de nuestro formulario en la web o por WhatsApp comercial (+54 9 11 6197-7748). Atendemos a casas de repuestos, casas de electricidad, comercios del rubro, talleres y flotas con precios escalonados por volumen y Factura A o B.',
   },
   {
     id: 'faq-4',

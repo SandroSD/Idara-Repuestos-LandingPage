@@ -24,7 +24,7 @@ export default function Hero() {
           className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-orange-50 border border-orange-200 text-orange-600 text-xs sm:text-sm font-bold mb-6 shadow-sm"
         >
           <span className="flex h-2 w-2 rounded-full bg-orange-500 animate-pulse" />
-          <span>DISTRIBUIDOR OFICIAL OSRAM & NEOLUX · WARNES</span>
+          <span>DISTRIBUIDOR OFICIAL OSRAM & NEOLUX</span>
           <span className="hidden sm:inline text-orange-300">|</span>
           <span className="hidden sm:inline text-slate-600 font-semibold">Desde 1997</span>
         </motion.div>
@@ -36,7 +36,10 @@ export default function Hero() {
           transition={{ duration: 0.4, delay: 0.1 }}
           className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tight text-[#0B0F19] mb-6 leading-[1.1]"
         >
-          Iluminación de <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 via-orange-500 to-amber-500">Precisión Alemana</span> para el Automotor
+          Distribuidora Mayorista de{' '}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 via-orange-500 to-amber-500">
+            Iluminación Automotor
+          </span>
         </motion.h1>
 
         {/* Subtitle */}
@@ -46,7 +49,7 @@ export default function Hero() {
           transition={{ duration: 0.4, delay: 0.15 }}
           className="text-base sm:text-xl text-slate-600 max-w-3xl mx-auto mb-10 leading-relaxed font-normal"
         >
-          Lámparas <strong className="text-slate-900 font-bold">LED de alto rendimiento</strong>, halógenas premium y xenón original para autos, motos y línea pesada 24V. Abastecemos a <strong className="text-slate-900 font-bold">repuesteras, talleres y particulares</strong> con stock inmediato y envíos a todo el país.
+          Línea oficial <strong className="text-slate-900 font-bold">OSRAM & NEOLUX</strong>: Lámparas LED, Halógenas Premium y Xenón (12V y 24V pesados). Abastecemos a <strong className="text-slate-900 font-bold">casas de repuestos, comercios del rubro y talleres</strong> con stock permanente y envíos a todo el país.
         </motion.p>
 
         {/* Dual High-Conversion CTAs */}
