@@ -15,6 +15,7 @@ export interface CatalogoProducto {
   descripcion: string;
   precio: number;
   codigoEquivalenteOsram?: string;
+  imagen?: string;
 }
 
 export interface Product {

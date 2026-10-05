@@ -12,7 +12,8 @@ export const productsData: CatalogoProducto[] = [
     "volts": "12V",
     "watts": "60/55W",
     "descripcion": "P43T Luz Estandar 3200Kº",
-    "precio": 4040.0
+    "precio": 4040.0,
+    "imagen": "/products/64193.jpg"
   },
   {
     "id": "osram-auto-64193-cbn-h4",
@@ -25,7 +26,8 @@ export const productsData: CatalogoProducto[] = [
     "volts": "12V",
     "watts": "60/55W",
     "descripcion": "P43T Luz Super Blanca 4200 Kº",
-    "precio": 12790.0
+    "precio": 12790.0,
+    "imagen": "/products/64193CBN.jpg"
   },
   {
     "id": "osram-auto-64193-nl-h4",
@@ -38,7 +40,8 @@ export const productsData: CatalogoProducto[] = [
     "volts": "12V",
     "watts": "60/55W",
     "descripcion": "P43T 150% mas Luz que Estandar 3900Kº",
-    "precio": 27228.5
+    "precio": 27228.5,
+    "imagen": "/products/64193NL.jpg"
   },
   {
     "id": "osram-auto-64193-sv2-h4",
@@ -51,7 +54,8 @@ export const productsData: CatalogoProducto[] = [
     "volts": "12V",
     "watts": "60/55W",
     "descripcion": "P43T Silvertasr 2,0 50% mas Luz",
-    "precio": 6950.0
+    "precio": 6950.0,
+    "imagen": "/products/64193.png"
   },
   {
     "id": "osram-auto-62193-cbb-h4",
@@ -64,7 +68,8 @@ export const productsData: CatalogoProducto[] = [
     "volts": "12V",
     "watts": "100/90W",
     "descripcion": "P43T Cool Blue Boost 5500K°",
-    "precio": 20425.56
+    "precio": 20425.56,
+    "imagen": "/products/64193.png"
   },
   {
     "id": "osram-auto-62204-sbp-h4",
@@ -77,7 +82,8 @@ export const productsData: CatalogoProducto[] = [
     "volts": "12V",
     "watts": "100/90W",
     "descripcion": "P43T Luz Estandar 3200Kº",
-    "precio": 6850.36
+    "precio": 6850.36,
+    "imagen": "/products/62204SBP.png"
   },
   {
     "id": "osram-auto-64204-sb-h4",
@@ -2563,7 +2569,8 @@ export const productsData: CatalogoProducto[] = [
     "watts": "",
     "descripcion": "12V 60/55W P43T N472 H4",
     "precio": 2368.76,
-    "codigoEquivalenteOsram": "64193"
+    "codigoEquivalenteOsram": "64193",
+    "imagen": "/products/N472.png"
   },
   {
     "id": "neolux-n-499-12v-55w-px",

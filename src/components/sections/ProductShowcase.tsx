@@ -334,6 +334,18 @@ export default function ProductShowcase() {
                       )}
                     </div>
 
+                    {/* Product Image Frame */}
+                    {product.imagen && (
+                      <div className="relative w-full h-48 sm:h-52 my-3 rounded-2xl bg-white flex items-center justify-center p-2.5 shadow-md border border-slate-700/60 overflow-hidden group-hover:border-orange-500/40 transition-all">
+                        <img
+                          src={product.imagen}
+                          alt={`${product.marca} ${product.codigo}`}
+                          className="h-full w-full object-contain filter drop-shadow-sm group-hover:scale-105 transition-transform duration-300"
+                          loading="lazy"
+                        />
+                      </div>
+                    )}
+
                     {/* Product Code SKU */}
                     <div className="flex items-baseline justify-between gap-2 mt-1">
                       <h3 className="text-xl font-black text-white group-hover:text-orange-400 transition-colors font-mono tracking-tight">
@@ -433,12 +445,24 @@ export default function ProductShowcase() {
                         </span>
                       </td>
                       <td className="py-3 px-4 font-mono font-bold text-slate-900">
-                        {p.codigo}
-                        {p.codigoEquivalenteOsram && (
-                          <span className="block text-[10px] text-amber-600 font-sans">
-                            Eq: {p.codigoEquivalenteOsram}
-                          </span>
-                        )}
+                        <div className="flex items-center gap-2.5">
+                          {p.imagen && (
+                            <img
+                              src={p.imagen}
+                              alt=""
+                              className="w-10 h-10 object-contain bg-white border border-slate-200 rounded-lg p-0.5 shrink-0 shadow-sm"
+                              loading="lazy"
+                            />
+                          )}
+                          <div>
+                            <span>{p.codigo}</span>
+                            {p.codigoEquivalenteOsram && (
+                              <span className="block text-[10px] text-amber-600 font-sans font-normal">
+                                Eq: {p.codigoEquivalenteOsram}
+                              </span>
+                            )}
+                          </div>
+                        </div>
                       </td>
                       <td className="py-3 px-4 font-mono font-bold text-orange-600">{p.tipo || '-'}</td>
                       <td className="py-3 px-4 font-mono">{p.volts || '-'}</td>
